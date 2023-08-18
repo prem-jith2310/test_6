@@ -22,7 +22,7 @@ urlpatterns = [
     path('deleteTeacher', views.deleteTeacher.as_view(), name='del_teacher'),
     path('deleteStaff', views.deleteStaff.as_view(), name='del_staff'),
     path('updateSchool', views.updateSchool.as_view(), name='update_school'),
-    path('updateTeacher', views.updateTeacher.as_view(), name='update_teacher')
+    path('updateTeacher', views.updateTeacher.as_view(), name='update_teacher'),
 ]
 
 if settings.DEBUG:

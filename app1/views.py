@@ -17,6 +17,9 @@ from django.contrib.auth import authenticate
 
 import json
 
+def index(request):
+    return render(request, 'index.html')
+
 def success_response(response, status_code=None):
     json_obj = {
         "hasError": False,
