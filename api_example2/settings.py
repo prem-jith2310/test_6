@@ -88,8 +88,8 @@ WSGI_APPLICATION = 'api_example2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'api2',
+        # 'ENGINE': 'mysql.connector.django',
+        # 'NAME': 'api2',
         'USER': 'root',
         'PASSWD': '',
         'HOST': 'localhost',
